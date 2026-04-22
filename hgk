@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>🔮 Personality</title>
+<style>
+body{font-family:Arial;background:#111;color:#fff;padding:60px;text-align:center;}
+</style>
+</head>
+<body>
+<h1>Quick Personality Quiz</h1>
+<button onclick="result()">Finish Quiz</button>
+<div id="res" style="margin-top:40px;font-size:24px;"></div>
+<script>
+function result(){
+  document.getElementById('res').innerHTML="You got: The Creative Explorer 🎨";
+}
+</script>
+</body>
+</html>
